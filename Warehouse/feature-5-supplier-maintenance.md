@@ -53,7 +53,7 @@
 **Independent test:** An item with available 10, min 15, max 50, and 24 per case gets 2 cases added to its supplier's draft order
 **Acceptance scenarios:** see ### US-5.4 under Acceptance Criteria
 
-### US-5.5: Create or change a supplier order by hand
+### US-5.5: Create or change a supplier
 
 **As an** office staff member
 **I want to** start a supplier order and add, change, or remove items (in cases) before it is sent
@@ -63,7 +63,7 @@
 **Independent test:** Add 4 cases of a 24-per-case item to a draft order; "on order" for that item goes up by 96
 **Acceptance scenarios:** see ### US-5.5 under Acceptance Criteria
 
-### US-5.6: Email supplier orders once a day
+### US-5.6: Email supplier orders
 
 **As an** office staff member
 **I want** all draft orders emailed to their suppliers at the warehouse's order send time
