@@ -23,7 +23,7 @@
 **Independent test:** Stock "CH-1001" in "WH1" with 40 on hand, min 15, max 50; it shows 40 on hand
 **Acceptance scenarios:** see ### US-9.1 under Acceptance Criteria
 
-### US-9.2: Change min and max
+### US-9.2: Change min and max inventory
 
 **As a** manager
 **I want to** change an item's min and max in a warehouse
@@ -33,7 +33,7 @@
 **Independent test:** Change min and max; the new values are shown and the reorder check runs
 **Acceptance scenarios:** see ### US-9.2 under Acceptance Criteria
 
-### US-9.3: Adjust stock with a reason
+### US-9.3: Update stock / inventory
 
 **As a** warehouse staff member
 **I want to** add or take away units with a reason (damaged, lost, found, count fix, other)
@@ -56,7 +56,7 @@
 ### US-9.5: See stock and its history
 
 **As an** employee
-**I want to** see on hand, on order, committed, available, min, and max, and every change that happened
+**I want to** see on hand, on order, available, min, and max, and every change that happened
 **So that** I can answer "how many do we have, and what happened to them?"
 
 **Priority:** P1
